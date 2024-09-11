@@ -2,7 +2,7 @@
    Karst fracture flow and evolution under rainfall conditions
 
 1. Fracturetokarst program is originally developed by Professor YU Qingchun, which is a C++ code. the original program has friendly GUI interface, which can be free available on the Rock Fracture Group website http://www.rockfractures.com/. 
-2. Recently, considering the special circumstances of fracture phreatic water table and rainfall recharge, it was improved and compiled under Linux 64bit environment and run at high performance computing platform. Since it is run under Linux and the running time is greater, the friendly GUI interface on Windows has not developed with the latest code.
+2. Recently, considering the special circumstances of fracture phreatic water table and rainfall recharge, it was improved and compiled under Linux 64bit environment and run at high performance computing platform. Since the new developed version is under Linux and the running time has increased significantly, the exe on Windows is not suitable and the friendly GUI interfacehas not developed with the latest code.
 
    It need a linear algebra libary Armadillo as C++ libary to do matrix computing. we should install Armadillo package on scientific computing platform first before compiling the source code.
 
