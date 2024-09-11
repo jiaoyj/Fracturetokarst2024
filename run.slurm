@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH -J Job0903
-#SBATCH -N 1      # 申请的节点数
-#SBATCH --ntasks-per-node=8  # 申请的核数
-#SBATCH -p kshcnormal    # 可访问队列
+#SBATCH -N 1      # apply node number
+#SBATCH --ntasks-per-node=8  # apply core number
+#SBATCH -p kshcnormal    # queue
 
-/public/home/jiaoyj/test20220903h200divide/karstprofile  # 可执行程序的路径
+/public/home/jiaoyj/test20220903h200divide/karstprofile  # the path and the exe
