@@ -5,7 +5,7 @@
 1. Fracturetokarst program is originally developed by Professor YU Qingchun, which is a C++ code. the original program on Windows has friendly GUI interface, which can be free available on the Rock Fracture Group website http://www.rockfractures.com/. 
 2. Recently, considering the special circumstances of fracture phreatic water table and rainfall recharge, it was improved and compiled under Linux 64bit environment and run at high performance computing platform. Since the new developed version is under Linux and the running time has increased significantly, the exe on Windows is not suitable and the friendly GUI interfacehas not developed with the latest code.
 
-   It need a linear algebra libary Armadillo as C++ libary to do matrix computing. We should install Armadillo package on scientific computing platform first before compiling the source code.
+   It need a linear algebra libary Armadillo as C++ libary to do matrix computing. We should install Armadillo package on scientific computing platform first before compiling the source code. The download website of Armadillo package is https://arma.sourceforge.net/.
 
 3. The source code files are main.cpp FractureModel.cpp  KarstModel.cpp  RandomGenerator.cpp and their .h files. So for example, when solving the free surface and karst evolution in the paper, the compiling source code can be as following: g++ main.cpp RandomGenerator.cpp FractureModel.cpp KarstModel.cpp -o karstprofile -L /public/home/jiaoyj/software/armadillo9/lib64 -larmadillo.
 
