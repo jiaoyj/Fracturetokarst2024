@@ -18,8 +18,9 @@
 6. The output files will be created with out_ prefix in the file name.
 
 7. Input files instruction:
+
    
-//////////////////instruction of input file: In_DFractureParabenchmark.dat as an example with input data
+             //////////////////instruction of input file: In_DFractureParabenchmark.dat as an example with input data
             2 1 3 // nboun1 nboun2 nbounf, which are the number of the first boundaries, the number of the second boundaries,the number of the third boundaries
             
             0 0 0 200        //xy12[i][1] xy12[i][2] xy12[i][3] xy12[i][4], one of the first boudaries, the coordinate of its two points(x,y unit m)
