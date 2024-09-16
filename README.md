@@ -36,20 +36,31 @@
 0 500 2000 500      //xy12[i][1] xy12[i][2] xy12[i][3] xy12[i][4], one of the third boudaries, the coordinate of its two points
 
 0 0           // the coordinate of each point on the boundaries, clockwise
+
 0 200         //
+
 0 500         //
+
 2000 500      //
+
 2000 200      //
+
 2000 0        //the coordinate of each point on the boundaries, clockwise
 
 200 200       // the water head of 2 first given water head boundaries
+
  0            // the flux of only one sencond  no flow boundary
 
 0 // the number of the determined fractures
+
 -1	-44	201	6	0.005     //the coordinate of two points of a fracture and its aperture(cm)
+
 -1	-39	201	11	0.005     //
+
 -1	-34	201	16	0.005     //
+
 -1	-29	201	21	0.005     //
+
 ......                    //the remaining fractures
 
 
@@ -57,8 +68,11 @@
 /////////////////////instruction of input file: In_RFracturePara.dat ,which generate the random fractures
 
 0 2000 0 500  // minx,maxx,miny,maxy,the range of generating fracures
+
 20 5          //ndx,ndy, the number of subareas in x and y directions
+
 2             // the number of groups of generated random fracutres
+
 3 240 5 220 260               //ndisl[i], meanl[i], sigmal[i], minl[i], maxl[i], the fracture length parameters of the first group of fractures, distribution, mean, standard deviation, minimum, maximum
 
 4 0.01 0.001 0.008 0.012      //ndisb[i], meanb[i], sigmab[i], minb[i], maxb[i], the aperture parameters:distribution, mean, standard deviation, minimum, maximum
@@ -66,10 +80,13 @@
 2 11 1 9 13                   //ndisd[i], meand[i], sigmad[i], mind[i], maxd[i], the direction parameters:distribution, mean, standard deviation, minimum, maximum
 
 20                            //the parameter of fracute density of the first group
+
 3 240 5 220 260               //ndisl[i], meanl[i], sigmal[i], minl[i], maxl[i],the fracture parameters of the second group of fractures
 
 4 0.01 0.001 0.008 0.012      //ndisb[i], meanb[i], sigmab[i], minb[i], maxb[i]
+
 2 85 2 82 88                  //ndisd[i], meand[i], sigmad[i], mind[i], maxd[i]
+
 10                            //the parameter of fracute density of the second group
 
 
