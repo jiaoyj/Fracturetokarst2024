@@ -51,7 +51,7 @@
             
              0            // the flux of only one sencond  no flow boundary
             
-            0 // the number of the determined fractures
+            0 // the number of the determined fractures. When it is 0, there are only random fractures. The fracture network is composed of determined and random fractures. 
             
             -1 -44 201 6 0.005     //the coordinate of two points of a fracture and its aperture(cm)
             
