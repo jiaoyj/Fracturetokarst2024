@@ -92,7 +92,7 @@
             
             ///////////////////////instruction of input file: In_TimeStep.dat
             
-            100  1 500 // the number of time steps, output control, and a time step(year)
+            100  1 500 // the number of time steps, output control, and the length of a time step (year)
             
             
             ////////////////////////instruction of input file: In_InfilPara.dat
